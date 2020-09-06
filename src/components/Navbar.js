@@ -10,12 +10,12 @@ export const Navbar = () => (
             <ul className="navbar-nav flex-row">
                 <li className="nav-item">
                     <NavLink exact to="/" className="nav-link">
-                        Main
+                        Home
                     </NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/about" className="nav-link">
-                        Information
+                        About
                     </NavLink>
                 </li>
             </ul>
