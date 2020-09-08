@@ -1,5 +1,5 @@
 import React from "react";
-import {Searcch} from "../components/Search";
+import {Search} from "../components/Search";
 import {Card} from "../components/Card";
 
 export const Home = () => {
@@ -8,7 +8,7 @@ export const Home = () => {
         .map((_, i) => i)
     return (
         <React.Fragment>
-            <Searcch/>
+            <Search/>
             <div className="row">
                 {cards.map(card => {
                     return (
