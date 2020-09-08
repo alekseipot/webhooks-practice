@@ -15,7 +15,7 @@ function App() {
                 <BrowserRouter>
                     <Navbar/>
                     <div className="container pt-4">
-                        <Alert alert={{text: 'test alert'}}/>
+                        <Alert/>
                         <Switch>
                             <Route path="/" exact component={Home}/>
                             <Route path="/about" component={About}/>

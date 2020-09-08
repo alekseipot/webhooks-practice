@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import {AlertContext} from "../context/alert/AlertContext";
 
 export const Alert = () => {
-    console.log('Alert')
     const {alert, hide} = useContext(AlertContext)
 
     if (!alert) return null
